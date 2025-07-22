@@ -1,0 +1,10 @@
+Network Communication
+> Sockets: The foundation of network communication. Think of them as virtual phone lines between computers.
+> IP + Port: One machine acts as the "server" (listener), the other as the "client" (connector).
+Concurrency
+> Threading: You need one thread to send messages and another to receive messages simultaneously.
+Data Flow
+> Serialization: Convert messages to bytes for transmission.
+> Encryption (Optional): Scramble data so only the intended recipient can read it.
+User Interface
+> Terminal I/O: Non-blocking input/output so typing isn't interrupted by incoming messages.
